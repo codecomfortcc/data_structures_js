@@ -1,0 +1,32 @@
+what is big O notation?
+Big O notation is used to describe the performance or complexity of an algorithm. 
+It specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used by an algorithm.
+Common Big O Complexities:
+
+O(1) - Constant Time:
+The running time is independent of the input size.
+Example: Accessing a specific element in an array.
+
+O(log n) - Logarithmic Time:
+The running time grows logarithmically with the input size.
+Example: Binary search in a sorted array.
+
+O(n) - Linear Time:
+The running time grows linearly with the input size.
+Example: Traversing an array.
+
+O(n log n) - Linearithmic Time:
+The running time grows linearly with the input size times a logarithmic factor.
+Example: Efficient sorting algorithms like merge sort and heap sort.
+
+O(n^2) - Quadratic Time:
+The running time grows quadratically with the input size.
+Example: Simple sorting algorithms like bubble sort, insertion sort, and selection sort.
+
+O(2^n) - Exponential Time:
+The running time doubles with each addition to the input size.
+Example: Solving the traveling salesman problem using brute-force search.
+
+O(n!) - Factorial Time:
+The running time grows factorial with the input size.
+Example: Solving the traveling salesman problem using brute-force with all permutations.
