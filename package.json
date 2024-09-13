@@ -1,0 +1,14 @@
+{
+  "name": "data_structures_js-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "array":"cd Linear && cd static && deno run arrays.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
